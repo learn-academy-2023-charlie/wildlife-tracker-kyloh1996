@@ -191,3 +191,6 @@ Controller#Action | active_storage/direct_uploads#create
 
 
 [{"id":1,"basic":"Pigeon","fancy":"Columba Livia","created_at":"2023-05-25T22:59:12.763Z","updated_at":"2023-05-25T22:59:12.763Z"},{"id":2,"basic":"American Robin","fancy":"Turdus Migratorius","created_at":"2023-05-25T23:00:51.533Z","updated_at":"2023-05-25T23:00:51.533Z"},{"id":3,"basic":"Eurasian Sparrowhawk","fancy":"Accipiter Nisus","created_at":"2023-05-25T23:01:47.820Z","updated_at":"2023-05-25T23:01:47.820Z"},{"id":4,"basic":"Sparrow","fancy":"Passer Domesticus","created_at":"2023-05-25T23:28:18.030Z","updated_at":"2023-05-25T23:28:18.030Z"}]
+
+
+3.2.0 :003 > animal_sighting = AnimalSighting.create(latitude:"40.71degN", longitude:"-74.06degW", date:Date.new(1996, 3, 27), animal_id:1)

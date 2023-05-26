@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  root 'animals#index'
-  get '/animals' => 'animals#index'
+  resources :animal_sightings
+  resources :animals
 end
